@@ -1,0 +1,14 @@
+---
+layout: post
+title: Flexile submitted to the iOS App Store
+category: [news]
+---
+
+Today marks a milestone for....well, mainly just me (and my wife).  After 1.5 years of development,  45,386 lines of code and a remarkable amount of anxiety, I've finally submitted Flexile to the iOS App Store.  Since absolutely no one is reading this site yet I suppose this post is more for historical reference.  This App has been "2 months" away from submission for about a year now so it's really nice to finally be able to make a post like this.  Here's some fun facts:
+
+​- Estimated App Store Size: 3.3mb. Some people might be surprised at such a small size since it appears that the entire app is custom....and it is. Instead of using "background images" all the graphics you see are drawn in code (stuff like: draw line from point a to point b) with only a couple (literally...two images) used for background textures.
+- Lines of Code: 45,386 (excluding whitespace). Lines of code don't mean much in the programming world simply because writing styles are vastly different between programmers. I tend to write condensed code with few comments, so I originally estimated the app would have at most 25k lines of code when I released it. It turned into an abject lesson in how useless estimates are.​
+- Development Time: 16 months full time, plus maybe another 2-3 months part-time. As another useless estimate, I had originally estimated the app would take at most 6 months. I had not only underestimated software development time, but also my anal-retentiveness when developing my own application.​
+- About half of the lines of code I ended up with were re-written at least once, sometimes as many as 6 times to get a feature working right...and by 'right' I mean: the way I wanted it to work. Probably the most re-writes were done on the code that handles 'zooming' a control to fill the screen. ​
+- The "trickiest" code to get work was probably the "Tap & Hold" to rearrange. Apple doesn't provide anything like this for their Table Views and it was the only thing keeping me from getting rid of that stupid (IMHO) Edit button that was taking up too much space on the Navigation bar. Instead of using "Apple's Rearrange" I essentially mimicked the process by using transparent placeholder view and keeping track of some very tricky, moving indexes.
+- ​The Flexile Icon was drawn by me, using the app InkPad on the iPad in about two days. I had looked into having the icon professionally done but it was more expensive than I could afford ( around $1,300). I didn't want to buy desktop software for it ($600 for illustrator) and using a $10 app on the iPad seemed worth a shot. I was astonished at how easily and how much fun it was to create the logo....not to mention how well it came out.

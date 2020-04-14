@@ -1,1 +1,2 @@
-# flexile-website
+# FunctionalGibberish
+Contains my blog posts

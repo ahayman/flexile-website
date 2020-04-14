@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<div class="posts">
+    <h1><small>{{ page.title }}</small></h1>
+
+    {% assign posts=site.categories[page.tag] %}
+    <h3>{% if posts %}{{ posts.size }}{% else %}0{% endif %} Posts</h3>
+
+    {% unless posts %}
+        <h3>Nothing Yet</h3>
+        <div class="entry">
+            <p>
+            Ooops!  It looks like I haven't written any posts in this category yet.
+            </p>    
+            <p>The most likely explanation is that I'm lazy and far too optimistic about how prolific I can write.  
+                However, I <i>did</i> create the category, so I obviously intend to write something about the subject... someday.</p>
+            <p>Stay tuned?</p>
+        </div>
+    {% endunless %}
+
+    {% for post in posts %}
+    <article class="post">
+    
+        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+    
+        <div class="date">
+            {{ post.date | date: "%B %e, %Y" }}
+        </div>
+    
+        <div class="entry">
+            {{ post.excerpt }}
+        </div>
+    
+        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+    {% endfor %}
+</div>

@@ -1,0 +1,9 @@
+---
+layout: post
+title: Flexile Released 11/2/12
+category: [news]
+---
+
+Ok, so I'm a little late on this blog, sorry.  I've released Flexile into the wild unknown as a kind of soft release, which means I'm basically just sticking it on the app store with absolutely no fanfare, marketing, promoting or even telling my friends about it (although I was obligated to tell family).  I'm doing this mostly because I don't actually consider Flexile 100% stable enough to promote.  Of course, the question then is: "Why am I releasing it if it's not stable."  Well, I kind of ran into a problem.  Once you get a certain place in software development, you start to get a decreasing return on debug testing (fewer and fewer bugs found for the same effort).  Generally, you'd turn out a beta and let some adventurous users find bugs for you.  But beta testing is notoriously difficult on iOS, and it's hard to find beta testers when nobody knows who you are.  Instead of wasting even more time (I spent about 2 weeks trying to get beta testers, set up the beta testing system, etc) I decided it would be better for Flexile if I risked the dreaded "one-star-reviews" and addressed bugs as quickly as possible, submitting updates to Apple as fast as they can release them, relying on users to help me find bugs.  I know, I know, this is an absolutely horrible thing to do, and I know how it sucks to have paid for an App only to find it has bugs.  My only consolation to those who feel they've been cheated is to assure you that I'm working hard to address all the bugs as quickly as Apple will let me.  I listen.  Promise.  So, if you send me feedback and point out bugs, they will be addressed as quickly as I can get to them.
+
+In the meantime, I hope you enjoy Flexile.  I've enjoyed making it, and I'm looking forward many years of making it better.
