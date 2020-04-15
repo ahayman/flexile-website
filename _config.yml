@@ -2,7 +2,7 @@
 title: "Flexile"
 email: aaron@flexile.co
 description: >- # this means to ignore newlines until "baseurl:"
-  A freeform database app (retired)
+  A freeform database app
 baseurl: "" 
 url: "https://flexile.co"
 

@@ -21,6 +21,7 @@ html, html[data-theme="light"] {
   --color-subText: #666;
   --color-select: #eee;
   --color-background: #fff;
+  --color-site-background: rgb(33, 71, 109);
 }
 
 html[data-theme="dark"] {
@@ -36,6 +37,7 @@ html[data-theme="dark"] {
   --color-subText: #777;
   --color-select: #444;
   --color-background: #222;
+  --color-site-background: rgb(33, 71, 109);
 }
 
 
