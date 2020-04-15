@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 30px;
   a {
-    color: inherit;
+    color: var(--color-heading);
   }
 }
 
@@ -201,11 +201,11 @@ img {
 }
 
 .site-avatar {
-  width: 50pt;
+  width: 200pt;
   height: 50pt;
 
   @include mobile {
-    width: 30pt;
+    width: 125pt;
     height: 30pt;
   }
   
@@ -258,30 +258,24 @@ img {
 }
 
 nav {
-  margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 18px;
+  text-align: center;
 
   @include mobile {
     float: none;
     margin-top: 0px;
     display: block;
-    text-align: center;
     font-size: 16px;
   }
 
   a {
-    color: var(--color-body);
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
-    display: block;
-
-    @include mobile {
-      display: inline;
-      margin: 0 5px;
-      color: var(--color-link);
-    }
+    display: inline;
+    margin: 0 5px;
+    color: var(--color-link);
   }
 }
 
@@ -298,6 +292,7 @@ nav {
 
 .tag {
   margin-top: 5pt;
+  margin-right: 5pt;
   padding: 0pt 3pt 0pt 3pt;
   color: var(--color-background);
   background-color: var(--color-tag);
