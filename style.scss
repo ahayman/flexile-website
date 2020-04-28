@@ -370,6 +370,44 @@ footer {
   justify-content: center;
 }
 
+.commento-root textarea {
+  background: var(--color-nav-background) !important;
+  color: var(--color-standard-text) !important;
+}
+
+.commento-login-box {
+  background: var(--color-nav-background) !important;
+}
+
+.commento-login-box .commento-login-box-subtitle {
+  color: var(--color-subText) !important;
+}
+
+.commento-login-box .commento-forgot-link {
+  color: var(--color-subText) !important;
+}
+
+.commento-email {
+  background: var(--color-background) !important;
+}
+
+.commento-email .commento-input {
+  background: var(--color-background) !important;
+}
+
+.commento-email .commento-email-button {
+  background: var(--color-background) !important;
+  color: var(--color-link) !important;
+}
+
+.commento-root .commento-submit-button {
+  background: var(--color-button) !important;
+}
+
+.commento-root * {
+  color: var(--color-standard-text) !important;
+}
+
 @media (prefers-color-scheme: dark) {
     html {
       content: "dark";
