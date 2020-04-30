@@ -5,6 +5,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   A freeform database app
 baseurl: "" 
 url: "https://flexile.co"
+permalink: /:year-:month-:day-:title/
 
 footer-links:
   dribbble:
